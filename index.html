@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Insurance CF Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" media="screen" rel="stylesheet" href="styles.css" />
+	<!--<link type="text/css" media="screen" rel="stylesheet" href="Queries.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <div class="headerlogo">
+            <img src="img/logo.png" alt="insurance-logo">
+        </div>
+        <div class="bannerbox">
+            <a href="https://www.codefactory.wien/"><img src="img/banner.png" alt="Full Stack Banner"></a>
+        </div>
+    </header><!--End of header-->
+    
+    <nav class="headernav">
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+    </nav>
+    <!--end headernav-->
+    
+    
+    <div class="uppercontent">
+        <div class="picture_plus_text">
+            <div class="picture">   
+                <img src="img/traffic-332857_1920.jpg" alt="Traffic">
+            </div>
+        
+            <div class="textfield">
+                <span class="textfieldheader">Un-complicating car coverage</span>
+                <span>Understanding your coverage options shouldn't be so hard.<br>
+                We"ll guide you trough available coverage types,<br>
+                starting with who and what is covered.
+                </span>
+            </div>
+        </div><!--end picture_plus_text-->
+    
+        <div class="layer">
+         <span class="headerlayer">Car Insurance</span>
+            <div class="main_input">
+                <div class ="main_input_content">
+                    <p id="p_cover">Great coverage begins<br>
+                    with a custom quote</p>
+                        <div class= "inputcontainer">
+                            <div class="left_input">
+                                <div class="field">
+                                    <label var="name">Your Name:</label>
+                                    <input type="text" id="name" name="name" class="input"/><br>
+                                </div><!--end of field-->
+                                
+                                <div class="field">
+                                    <label var="country ">Country:</label>
+                                    <select id="select" name="country" class="input">
+                                        <option>Austria</option>
+                                        <option>Hungary</option>
+                                        <option>Greece</option></select>
+                                    </select>
+                                </div><!--end of field-->
+                                
+                            </div><!--end left_input-->
+                            <div class="right_input">
+                                <div class="field">
+                                    <label var="age">Age:</label>
+                                    <input type="number" id="age"  name="age" class="input"/><br>
+                                </div><!--end of field-->
+                                
+                                <div class="field">
+                                    <label var="horsepower">Horsepower of your car:</label>
+                                    <input type="number" id="horsepower" name="horsepower" class="input"/><br>
+                                </div><!--end of field-->
+                                
+                            </div><!--end right_input-->
+                        </div><!--end inputcontainer-->
+                    <input id="calc" type="button" value="Calculate">
+                    <p id="result">Printed calculation goes here</p>
+                </div><!--end main_input_content-->
+            </div><!--end main_input-->
+        </div><!--end layer-->
+        
+    </div><!--end of upper content-->
+    
+    
+    
+    <div class=lowercontent>
+        <div class="box">
+            <span class="bluetext">What comes standard</span>
+            <span>The coverage you need<span>
+            <ul class="boxlist">
+                <li><span class="haken">✔</span> Bodily Injury Liability</li>
+                <li><span class="haken">✔</span> Property Damage</li>
+                <li><span class="haken">✔</span> Medical Payments</li>
+            </ul>
+            <div class="boxtext">
+            <h4>Benefits</h4>
+            <p>12 month rate guarantee | 24/7 customer<br>
+            service | Lifetime Repair Guarantee</p>
+            </div>
+        </div>
+        
+        <div class="box">
+            <span class="bluetext">Add-on protection & coverage</span>
+            <span>The For more peace of mind</span>
+            <ul class="boxlist">
+                <li><span class="haken">✔</span> Better Car Replacement</li>
+                <li><span class="haken">✔</span> Towing & Labor</li>
+                <li><span class="haken">✔</span> Rental Car Coverage</li>
+            </ul>
+            <div class="boxtext">
+            <h4>Earned Benefits</h4>
+            <p>Accident Forgiveness | New Car<br>
+            Replacement</p>
+            </div>
+        </div>
+        
+    </div><!--end of lower content-->
+    
+    <footer class="footer">
+        <ul class="footerlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+            <div class="footerlogo">
+              <img src="img/logo-inv.png" alt="logo-inv">  
+            </div>
+            <div class="myname">
+                <p>Andreas Pirkner - CodeFactory 2020</p>
+            </div>
+    </footer>
+    <!--end footer-->
+    </div><!--end container-->
+    
+    <script src="script.js"></script>
+    
+    
+	
+</body>
+</html>

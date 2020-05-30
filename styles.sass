@@ -1,0 +1,243 @@
+
+//@media screen and (min-width: 780px)
+$background: rgba(255,255,255,0.8)
+
+body
+    font: 100%/1.4 "Open Sans Condensed", Roboto, sans-serif
+    //margin: auto
+    //height: 100%
+    margin: 0
+    padding: 0
+    
+.container
+    width: 80%
+    max-width: 1280px
+    min-width: 780px
+    margin: auto
+    
+/*____________header__________*/   
+.header
+    background-color: #fff2f3
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 120px
+    
+.headerlogo
+    padding-left: 30px
+    
+.bannerbox
+    padding-right: 30px
+    margin-right: 0px
+    
+    
+/*______________Navigation___________*/
+
+.headernav
+    margin-top: -20px
+    height: 40px
+    background-color: #8e1617
+    
+    
+.navlinks
+    height: 100%
+    display: flex
+    flex-direction: row
+    list-style: none
+    align-items: center
+    
+.navlinks > li > a
+    color: white
+    text-decoration: none
+    padding-left: 15px
+    font-size: 1.0em
+    
+    
+/*_____________upper content___________-__-*/
+
+.uppercontent
+    position: relative
+    
+.picture_plus_text
+    //margin-bottom: -30%
+
+/*.picture
+    position: relative*/
+    
+    
+.headerlayer
+    //position: absolute
+    //left: 0
+    //width: 100%
+    //margin-top: -65%
+    padding-left: 30px
+    font-size: 2em
+    color: white
+    
+    
+.picture img
+    max-width: 100%
+
+
+    
+
+    
+.textfield
+    display: flex
+    flex-direction: column
+    text-align: center
+    margin-top: -7px
+    padding: 40px 0 20px 0
+    color: #3a3a3a
+    //position: relative
+    background-color: #cecece
+    
+.textfieldheader
+    font-size: 2em
+
+/*___________layer(upper content)________________*/
+
+.layer
+    position: absolute
+    margin-top: -80%
+    width: 100%
+    
+.main_input
+    display: flex
+    //flex-direction: column
+    justify-content: center
+    
+.main_input_content
+    display: flex
+    flex-direction: column
+    border: solid 3px grey
+    align-items: center
+    margin-top: 3%
+    width: 80%
+    background-color: $background
+    
+#p_cover
+    text-align: center
+    color: #3a3a3a
+    font-size: 3em
+
+.inputcontainer
+    display: flex
+    //flex-direction: row
+    padding-bottom: 20px
+    justify-content: space-between
+    width: 60%
+    
+.left_input
+    display: flex
+    flex-direction: column
+    
+.right_input
+    display: flex
+    flex-direction: column
+    
+.field
+    display: flex
+    flex-direction: column
+    
+input
+    width: 200px
+    height: 30px
+    
+select
+    width: 210px
+    //height: 30px
+    font-size: 1.5em
+    font-family: "Open Sans Condensed"
+    
+#calc
+    background-color: #329235
+    font-family: "Open Sans Condensed"
+    color: white
+    border: none
+    border-radius: 15px
+    font-size: 2em
+    width: 210px
+    height: 50px
+    
+    
+#result
+    color: #329235
+    font-size: 2em
+    
+    
+    
+/*____________lower content________________*/
+
+.lowercontent
+    display: flex
+    justify-content: space-between
+    margin: 0 5% 0 5%
+    
+    
+
+.box
+    display: flex
+    flex-direction: column
+    padding-left: 15px
+    //background-color: $background
+    border-top: solid 3px grey
+    width: 30%
+    box-shadow: 0 2px 10px 10px #cecece
+    margin-top: 5%
+    
+.bluetext
+    color: #526c95
+    font-size: 1.2em
+    font-weight: bold
+    
+.boxlist
+    list-style: none
+    diplay: flex
+    justify-content: flex-start
+    
+.haken
+    color: #91d3d5
+    
+    
+/*footer*/
+    
+.footer
+    margin-top: 60px
+    background-color: #191919
+    color: white
+        
+.footerlinks
+    align-items: start
+    display: flex
+    flex-direction: row
+    list-style: none
+    font-size: 0.8em
+    padding-top: 10px
+    height: auto
+    
+.footerlinks > li > a
+    color: white
+    text-decoration: none
+    padding-left: 15px
+    
+    
+        
+.footerlogo
+    margin: 20px
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+        
+.myname
+    display: flex
+    justify-content: center
+    align-items: flex-end
+    padding-bottom: 5px
+    
+    
+@import "Queries"
+        
+    
+
+
